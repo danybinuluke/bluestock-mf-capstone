@@ -1,0 +1,70 @@
+{
+  "name": "Bluestock Fintech Theme",
+  "dataColors": [
+    "#0052CC",
+    "#00A36C",
+    "#4B6B8A",
+    "#1D2B36",
+    "#87A1B6",
+    "#33D69F",
+    "#003D99",
+    "#F4F5F7"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#172B4D",
+  "tableAccent": "#0052CC",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "outspacePane": [
+          {
+            "backgroundColor": { "solid": { "color": "#F4F5F7" } },
+            "foregroundColor": { "solid": { "color": "#172B4D" } }
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "visualHeader": [
+          {
+            "foreground": { "solid": { "color": "#172B4D" } }
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#DFE1E6" } },
+            "radius": 4
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#091E42" } },
+            "position": "Outer",
+            "preset": "BottomRight",
+            "shadowSpread": 0,
+            "shadowBlur": 4,
+            "angle": 45,
+            "shadowDistance": 2,
+            "transparency": 85
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F4F5F7" } },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}
